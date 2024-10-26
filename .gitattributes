@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Ignore all files in the volume_data directory
+.devcontainer/volume_data/** !.devcontainer/volume_data
